@@ -1,0 +1,60 @@
+/** 
+1. top icons, skew left with name
+2. google logo, center 
+3. search bar 
+4. search buttons , google search and im feeling lucky
+5. footer with links
+**/
+*{
+	text-decoration: none;
+	list-style-image: none;
+}
+#container{
+	text-align: center;
+}
+#topbar{
+	float: right;
+	padding-left: 30px;
+	padding-right: 15px;
+	display: inline-block;
+	vertical-align: baseline;
+}
+body {
+	font-family: arial;
+	display: inline;
+}
+li {
+	font-size: 13px;
+	padding: 5px 8px 5px 8px;
+	display: inline;
+	list-style-type: none;
+
+}
+
+#logo {
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;
+	position: relative;
+	
+}
+input{
+	height: 30px;
+  	width: 40em;
+}
+
+#searchbar {
+	text-align: center;
+}
+#searchbuttons{
+	text-align: center;
+	padding-top: 10px;
+}
+ #bottom-left{
+	float:left;
+	display: inline;
+	padding-top: 150px;
+}
+#bottom-right{
+	float:right;
+	padding-top: 150px;
